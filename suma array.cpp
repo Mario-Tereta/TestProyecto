@@ -4,11 +4,11 @@ using namespace std;
 
 int main(){
 	
-	int numeros []={2,2,3,4,5,6};
+	int numeros []={1,2,3,4,5,6,7,8,9,10};
 	int suma = 0;
 	int e = 0;
 	
-	while (e <= 6){
+	while (e <= 10){
 		suma = suma + numeros[e];
 		e++;
 	}
